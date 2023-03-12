@@ -52,8 +52,6 @@ this way it can confront and meet many different challenges automatically withou
 *It's also provided with a function that checks whether the data of a given pair was analyzed and prevents processing the same candlestick twice for a given timeframe*
 
 <br>
-<br>
-
 
 ## Executing the Program 
 **To execute the trading bot, you can download the files and run the 'Forex Trading Bot.py' script or run the program 
