@@ -28,10 +28,10 @@ candle update for a given pair to begin analyzing its candles, and specifying th
 <br>
 <br>
 **This bot is designed to trade on multiple forex pairs simultaneously with different trading time frames, currently containing 26 pairs 
-in total, each has its own trading timeframe. They are presented is a tuble of lists, each list containing the pair's name on MetaTrader,
+in total, each has its own trading timeframe. They are presented is a tuple of lists, each list containing the pair's name on MetaTrader,
 the timeframe for trading on it, and a boolean value indicating the presence or absence of a new candle update for that given pair based on 
 that particular timeframe. As such, each forex pair is processed and analyzed separately based on its own unique, prespecified trading 
-timeframe. You can add or remove a pair from the tuble, or change the timeframe for any given pair. With a few tinkering, this bot can 
+timeframe. You can add or remove a pair from the tuple, or change the timeframe for any given pair. With a few tinkering, this bot can 
 also trade on stocks and crypto, depending on the type of broker.**
 <br>
 <br>
