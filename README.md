@@ -80,4 +80,3 @@ it into use. It is only meant to showcase what I've learned about algorithmic tr
 for developing and implementing trading bots. If you're intending on trying it, use it on a demo account for safety.
 <br>
 <br>
-
