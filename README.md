@@ -48,7 +48,7 @@ this way it can confront and meet many different challenges automatically withou
  - **Iterates over forex pairs and collects candlesticks with open, high, low, close prices for a given pair** <br>
  - **Applies the strategy or indicator to analyze the pair's candlesticks and identify its market trends** <br>
  - **Specifies the buy and sell conditions based on the indicator's analysis** <br>
- - **Executes a buy or sell order if the conditions are met** <br>
+ - **Executes a buy or sell order if the conditions are met** <br><br>
 *It's also provided with a function that checks whether the data of a given pair was analyzed and prevents processing the same candlestick twice for a given timeframe*
 
 <br>
