@@ -1,7 +1,7 @@
 # Forex Trading Bot
 
 ## About The Program
-**This program is forex trading bot that works on the popular trading platform, MetaTrader 5. It was created 
+**This program is a forex trading bot that works on the popular trading platform, MetaTrader 5. It was created 
 using Python to connect to the MetaTrader5 terminal and run on a personal PC. It presents one of my first attempts 
 at using Python for algorithmic trading and trading bot design and implementation. It is meant to showcase a sample of 
 my work in algorithmic trading and trading bot development, but I wouldn't advise using it for personal trading.**
@@ -12,18 +12,18 @@ multiplicative factor of 5, which analyzes market prices for a given forex pair 
 accordingly. To be more specific, the SuperTrend indicator identifies market trends, detecting the market's up-trend 
 and down-trend which are depicted as a green or red line, according to which a decision can be made about buying or selling. 
 These lines are not plotted by the bot here, however they are indicated by two key variables: maximum and minimum (and average, 
-corresponding the midway point). For the current strategy, the buy condition is defined as, buy if the low price of the next to 
+corresponding to the midway point). For the current strategy, the buy condition is defined as, buy if the low price of the next to 
 last candle is lower than the indicator's down-trend line; whereas the sell condition is defined as, sell if the high price of 
 the next to last candle is higher than the indicator's up-trend. The bot provides ongoing monitoring of market trends on each 
 candle update for a given forex pair based on a prespecified timeframe and executes a buy/sell order if a buy/sell condition is met.**
 <br>
 <br>
 **The program is split into 4 Python files, the main program script, 'Forex Trading Bot.py', and three additional scripts, each 
-containing custom-functions that are specialized for a particular type of tasks: 'DataProcessing.py', which contains the bot's 
+containing custom functions that are specialized for a particular type of task: 'DataProcessing.py', which contains the bot's 
 indicator function for processing, analyzing, and identifying market trends; 'OrderProcessing.py', which is particularly 
 specialized for processing market orders, covering custom functions for calculating the lot size for a given trade, stop 
 loss and take profit values, and functions for executing buy and sell orders; and, 'TimeProcessing.py', which is specialized 
-for time-related processes, such as monitoring market open and closing times, monitoring and signaling the start of a new 
+for time-related processes, such as monitoring market opening and closing times, monitoring and signalling the start of a new 
 candle update for a given pair to begin analyzing its candles, and specifying the timeframes for trading.**
 <br>
 <br>
@@ -36,7 +36,7 @@ also trade on stocks and crypto, depending on the type of broker.**
 <br>
 <br>
 **Finally, this bot is highly dynamic and responsive with multiple nested loops to control for: market open/close time, internet connection 
-problems, order execution problems, high increases or decreases in account balance, among others, and adjusts its behavior accordingly. In 
+problems, order execution problems, high increases or decreases in the account balance, among others, and adjusts its behaviour accordingly. In 
 this way it can confront and meet many different challenges automatically without intervention from the user.** 
 
 <br>
@@ -45,7 +45,7 @@ this way it can confront and meet many different challenges automatically withou
  - **Checks if the forex market is open** <br>
  - **Connects to metatrader5 terminal and logs in to personal account** <br> 
  - **Checks if the internet is connected** <br>
- - **Iterates over forex pairs and collects candlesticks with open, high, low, close prices for a given pair** <br>
+ - **Iterates over forex pairs and collects candlesticks with open, high, low, and close prices for a given pair** <br>
  - **Applies the strategy or indicator to analyze the pair's candlesticks and identify its market trends** <br>
  - **Specifies the buy and sell conditions based on the indicator's analysis** <br>
  - **Executes a buy or sell order if the conditions are met** <br><br>
@@ -55,16 +55,16 @@ this way it can confront and meet many different challenges automatically withou
 
 ## Executing the Program 
 **To execute the trading bot, you can download the files and run the 'Forex Trading Bot.py' script or run the program 
-from the Jupyter notebook file provided. You can find more details on how to run the program on Jupyter inside the notebook
+from the Jupyter Notebook file provided. You can find more details on how to run the program on Jupyter inside the notebook
 file. In either case, before executing the program, you will first have to download the MetaTrader5 terminal on your personal PC from [MetaTrader5](https://www.metatrader5.com/en/download), 
 along with the relevant Python libraries, given that this bot must be connected to the MetaTrader5 terminal for it to work. Upon 
-running the program, you will be prompted for three key inputs: your usernamer, password, and your broker's server on MetaTrader5. 
+running the program, you will be prompted for three key inputs: your username, password, and your broker's server on MetaTrader5. 
 Once it is put into action, you can track and inspect your market orders on the MetaTrader5 terminal itself. Feel free to try it on 
 demo accounts with virtual money.**
 
 <br>
 
-**You can quickly access the code and execute the program from the link I have provided below. The link will direct you to a Jupyter notebook, 
+**You can quickly access the code and execute the program from the link I have provided below. The link will direct you to a Jupyter Notebook, 
 with the code and function files necessary to run the bot. I have provided more details on how to run the program on Jupyter inside the notebook.**
 <br>
 
