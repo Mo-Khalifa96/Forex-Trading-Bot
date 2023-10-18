@@ -28,10 +28,10 @@ candle update for a given pair to begin analyzing its candles, and specifying th
 <br>
 <br>
 **This bot is designed to trade on multiple forex pairs simultaneously with different trading time frames, currently containing 26 pairs 
-in total, each has its own trading timeframe. They are presented is a tuple of lists, each list containing the pair's name on MetaTrader,
+in total, each has its own trading timeframe. They are presented as a tuple of lists, each list containing the pair's name on MetaTrader,
 the timeframe for trading on it, and a boolean value indicating the presence or absence of a new candle update for that given pair based on 
 that particular timeframe. As such, each forex pair is processed and analyzed separately based on its own unique, prespecified trading 
-timeframe. You can add or remove a pair from the tuple, or change the timeframe for any given pair. With a few tinkering, this bot can 
+timeframe. You can add or remove a pair from the tuple, or change the timeframe for any given pair. With a little tinkering, this bot can 
 also trade on stocks and crypto, depending on the type of broker.**
 <br>
 <br>
@@ -74,9 +74,10 @@ https://mybinder.org/v2/gh/Mo-Khalifa96/Forex-Trading-Bot/main?labpath=Forex%20T
 <br>
 
 ## Disclaimer 
-It's important to note once more that strategy being employed here is not granteed to be successful. You're highly advised 
+It's important to note once more that the strategy being employed here is not guaranteed to be successful. You're highly advised 
 against using it for trading. A good strategy would require careful and exhaustive backtesting first before putting 
 it into use. It is only meant to showcase what I've learned about algorithmic trading and my ability to utilize Python 
 for developing and implementing trading bots. If you're intending on trying it, use it on a demo account for safety.
 <br>
 <br>
+
